@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8" />
+<title>Twitch Redirect</title>
+<script>
+  // ① 把整個 #fragment 帶回 App
+  location.replace("twitchdemo://oauth-callback" + location.hash);
+</script>
+<p>Redirecting back to the app…</p>
+</html>
